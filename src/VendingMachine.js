@@ -1,5 +1,6 @@
 import React from 'react';
 import {BrowserRouter, Route} from "react-router-dom";
+import Navbar from "./Navbar"
 import Home from "./Home";
 import Coffee from "./Coffee";
 import Pokka from "./Pokka";
@@ -9,6 +10,7 @@ import './App.css';
 function VendingMachine() {
   return (
     <BrowserRouter>
+        <Navbar />
         <Route exact path="/">
             <Home />
         </Route>
