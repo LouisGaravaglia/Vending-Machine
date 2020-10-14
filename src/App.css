@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.Home {
+  margin-top: 20px;
+}
+
+.Home-img {
+  width: 30%;
+  height: auto;
+}
+
+.Coffee {
+  margin-top: 20px;
+}
+
+.Coffee-img {
+  width: 30%;
+  height: auto;
+}
+
+.Pokka {
+  margin-top: 20px;
+}
+
+.Pokka-img {
+  width: 30%;
+  height: auto;
+}
+
+.Calpico {
+  margin-top: 20px;
+}
+
+.Calpico-img {
+  width: 30%;
+  height: auto;
+}
