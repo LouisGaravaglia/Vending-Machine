@@ -1,16 +1,17 @@
 import React from 'react';
 import {BrowserRouter, Route} from "react-router-dom";
-import Navbar from "./Navbar"
+import HomeNavbar from "./HomeNavbar";
+import SnackNavbar from "./SnackNavbar";
 import Home from "./Home";
 import Coffee from "./Coffee";
 import Pokka from "./Pokka";
-import Calpico from "./Calpico"
+import Calpico from "./Calpico";
 import './App.css';
 
 function VendingMachine() {
   return (
     <BrowserRouter>
-        <Navbar />
+
         <Route exact path="/">
             <Home />
         </Route>
